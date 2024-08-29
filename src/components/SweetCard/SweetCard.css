@@ -1,0 +1,53 @@
+.sweetcard-container{
+    background-color:rgb(244, 244, 244);
+    width: 300px;
+    height: auto;
+    padding: 10px ;
+    box-shadow: 0 0 10px gray;
+    position: relative;
+    border-radius: 5px;
+}
+
+.sweetcard-image{
+    height: 150px;
+    width: 90%;
+    object-fit: cover;
+    display: block;
+    margin:0 auto;
+    border-radius: 5px;
+}
+
+.sweetcard-category{
+    height: 20px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.sweetcard-title{
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sweetcard-description{
+    text-align: justify;
+    font-size: 15px;
+}
+
+.sweetcard-btn{
+    background-color: rgb(98, 94, 94);
+    color: white;
+    display: block;
+    margin: 5px auto;
+    padding: 7px 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.sweetcard-btn:hover{
+    background-color: rgb(59, 55, 55);
+    padding: 8px 22px;
+}
